@@ -324,11 +324,11 @@ img {
   box-shadow: 0 8px 32px hsla(243, 100%, 54%, .4);
 }
 
-.button_yellow {
+.button__yellow {
   background: var(--third-gradient);
 }
 
-.button_yellow:hover {
+.button__yellow:hover {
   box-shadow: 0 8px 32px hsla(25, 96%, 55%, .4);
 }
 
@@ -522,8 +522,26 @@ img {
 }
 
 /*=============== CONTACT ===============*/
+.contact__container {
+  padding-bottom: 2rem;
+}
 
+.contact__form {
+  display: grid;
+  row-gap: 1rem;
+}
 
+.contact__input {
+  width: 100%;
+  background-color: var(--body-color);
+  border: 2px solid var(--border-color);
+  padding: 1rem;
+  color: var(--white-color);
+}
+
+.contact__form button {
+  cursor: pointer;
+}
 /*=============== FOOTER ===============*/
 
 
