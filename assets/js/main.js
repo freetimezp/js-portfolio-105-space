@@ -22,10 +22,37 @@ navs.forEach(el => el.addEventListener("click", () => {
 }))
 
 /*=============== ADD BLUR HEADER ===============*/
+const blurHeader = () => {
+    const header = document.getElementById("header");
+
+    this.scrollY >= 50 ? header.classList.add("blur-header") : header.classList.remove("blur-header");
+};
+
+window.addEventListener("scroll", blurHeader);
 
 
 /*=============== SWIPER PLANETS ===============*/
+const travelSwiper = new Swiper(".travel__swiper", {
+    loop: true,
+    spaceBetween: "32",
+    grabCursor: true,
+    slidesPerView: "auto",
+    centeredSlides: "auto",
 
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+    },
+
+    breakpoints: {
+        600: {
+            slidesPerView: 2,
+        },
+        900: {
+            slidesPerView: 3,
+        },
+    }
+});
 
 /*=============== SHOW SCROLL UP ===============*/
 
