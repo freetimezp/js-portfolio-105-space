@@ -42,7 +42,7 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data, .contact__container`);
 sr.reveal(`.home__img`, { origin: 'bottom' });
 sr.reveal(`.home__ovni`, { delay: 800 });
-sr.reveal(`.history__card, .swiper-slide`, { interval: 200 });
+sr.reveal(`.history__card`, { interval: 200 });
 sr.reveal(`.explore__img`, { origin: 'left' });
 sr.reveal(`.explore__data`, { origin: 'right' });
 sr.reveal(`.explore__planet`, { origin: 'right', delay: 800 });
