@@ -58,7 +58,7 @@ const travelSwiper = new Swiper(".travel__swiper", {
     loop: true,
     spaceBetween: "32",
     grabCursor: true,
-    slidesPerView: "auto",
+    slidesPerView: 1,
     centeredSlides: "auto",
 
     pagination: {
